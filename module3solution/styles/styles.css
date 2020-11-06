@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(106, 120, 241);
+  font-size: 15px;
+}
+/* header */
+.navbar {
+  background-color: rgb(240, 235, 105);
+}
+.navbar-brand {
+  font-style: italic;
+  font-size: 35px;
+  text-shadow: 2px 2px #FF0000;
+}
+.nav {
+ text-align: center;
+ font-size: 30px;
+ font-style: italic;
+ text-shadow: 2px 2px #cc0c0c;
+}
+#line {
+  width: 50%;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+/* Main */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: 2px 2px #e74343;
+  margin-bottom: 30px;
+}
+h2 {
+  text-align: center;
+  background-color: rgb(218, 119, 204);
+  font-style: italic;
+  color: black;
+  text-shadow: 1px 1px #fc0202;
+}
+#sea-tile1, #beef-tile1, #chicken-tile1 {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  border:2px solid black;
+  overflow: hidden;
+}
+#sea-tile1:hover, #beef-tile1:hover, #chicken-tile1:hover {
+  box-shadow: 0 2px 5px 2px crimson;
+}
+
+#sea-tile1 span, #beef-tile1 span, #chicken-tile1 span {
+  position: absolute;
+}
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
+
+@media  (min-width: 767px) and (max-width: 3000px) {
+  .nav {
+    display: none;
+  }
+}
